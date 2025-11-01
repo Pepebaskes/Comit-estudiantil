@@ -1,7 +1,7 @@
 {
       
       "name": "Comité Estudiantil Web Page",
-      "homepage": "https://github.com/Pepebaskes/Comit-estudiantil",
+      "homepage": "https://pepebaskes.github.io/Comit-estudiantil/",
       "version": "0.1.0",
       "private": true,
       "dependencies": {
@@ -58,9 +58,11 @@
             "vite": "6.3.5"
       },
       "scripts": {
-            "dev": "vite",
-            "build": "vite build",
-            "predeploy": "npm run build",
-            "deploy": "gh-pages -d build"
-      }
+  "dev": "vite",
+  "build": "vite build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
+  "preview": "vite preview"
+}
+
 }
