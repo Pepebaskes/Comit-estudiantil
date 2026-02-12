@@ -187,10 +187,10 @@ export function RepresentantesCarreras() {
         {/* Título de la sección */}
         <div className="text-center mb-12">
           <h2 className="text-slate-900 mb-4">
-            Representantes de Carrera
+            Presidentes de Carrera
           </h2>
           <p className="text-lg text-slate-600">
-            Cada carrera cuenta con un representante dedicado a defender los intereses 
+            Cada carrera cuenta con un Presidente dedicado a defender los intereses 
             de los estudiantes y servir como enlace con el comité
           </p>
         </div>
