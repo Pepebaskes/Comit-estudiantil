@@ -19,7 +19,7 @@ export function HeroSection() {
       <div className="absolute inset-0 bg-gradient-to-r from-blue-600/5 to-purple-600/5"></div>
       <div className="flex justify-center items-center mb-8">
       <img
-       src="/images/logoSinFondo.png"
+       src={`${import.meta.env.BASE_URL}images/logoSinFondo.png`}
         alt="Logo del Comité"
         className="w-48 h-48 object-contain drop-shadow-xl"
           />

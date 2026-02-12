@@ -28,7 +28,7 @@ export function Header() {
           <div className="flex items-center gap-4">
             {  
             <img
-              src="/images/logo.png"   // ✅ desde public/
+              src={`${import.meta.env.BASE_URL}images/logoSinFondo.png`}   // ✅ desde public/
               alt="Logo del comité"
               className="w-14 h-14 rounded-xl object-contain"
             />

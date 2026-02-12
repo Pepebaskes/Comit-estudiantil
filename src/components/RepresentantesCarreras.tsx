@@ -62,35 +62,35 @@ const representantes = [
     carrera: "Ingeniería Informática",
     nombre: "Román Emmanuel Castañeda Barboza",
     // Ruta a la foto (reemplazar con foto real)
-    foto: "/images/repreInfo.jpg",
+    foto: `${import.meta.env.BASE_URL}images/roman.jpg`,
     instagram: "@code.remstar",
-    semestre: "5to Semestre",
+    semestre: "6to Semestre",
     colorAccent: "bg-blue-500"
   },
   {
     id: "innovacion-agricola",
     carrera: "Ingeniería Innovación Agrícola",
-    nombre: "Ricardo Flores Rosas",
-    foto: "/images/repreAgro.jpg",
-    instagram: "flores.11ricardo",
-    semestre: "3er Semestre",
+    nombre: "Fátima del Carmén Figueroa Bobadilla",
+    foto: `${import.meta.env.BASE_URL}images/fatimaCarmen.jpg`,
+    instagram: "fatyf63",
+    semestre: "4to Semestre",
     colorAccent: "bg-green-500"
   },
   {
     id: "gestion-empresarial",
     carrera: "Ingeniería Gestión Empresarial",
     nombre: "Omar Iván Hernández Ibarra",
-    foto: "/images/repreGestion.jpg",
+    foto: `${import.meta.env.BASE_URL}images/omarGayPresi.jpg`,
     instagram: "@omar_._hernandez",
-    semestre: "3er Semestre",
+    semestre: "4to Semestre",
     colorAccent: "bg-purple-500"
   },
   {
     id: "arquitectura",
     carrera: "Arquitectura",
-    nombre: "Ricardo Miguel Villalpando Suárez",
-    foto: "/images/repreArqui.jpg",
-    instagram: "ricardoomvs",
+    nombre: "En Búsqueda de Representante",
+    foto: `${import.meta.env.BASE_URL}images/busqueda.jpg`,
+    instagram: "",
     semestre: "1er Semestre",
     colorAccent: "bg-orange-500"
   },
@@ -115,10 +115,10 @@ const representantes = [
   {
     id: "gestion-empresarial-mixta",
     carrera: "Ingeniería Gestión Empresarial Mixta",
-    nombre: "Pendiente",
-    foto: "/images/representantes/gestion-empresarial-mixta.jpg",
-    instagram: "",
-    semestre: "",
+    nombre: "Fátima Elizabeth Gaytán Galindo",
+    foto: `${import.meta.env.BASE_URL}images/fatimaEli.jpg`,
+    instagram: "lizy_05gg",
+    semestre: "4to semestre",
     colorAccent: "bg-pink-500"
   },
   {
@@ -148,23 +148,31 @@ const ramas: Rama[] = [
     id: "Unidas",
     nombre: "Rama Feminista Unidas",
     descripcion: "Colectiva estudiantil por la igualdad, la seguridad y la perspectiva de género.",
-    foto: "public/images/RamaUnidas.png",
+    foto: `${import.meta.env.BASE_URL}images/RamaUnidas.png`,
     instagram: "",
     colorAccent: "bg-pink-500"
   },
   //Ejemplos para futuro:
    {
-    id: "deporte",
-    nombre: "Deportes (Próximamente)",
-    descripcion: "Actividades deportivas, torneos y fomento a la salud física.",
+    id: "periodismo",
+    nombre: "Rama de Periodismo",
+    descripcion: "Actividades periodísticas, entrevistas y difusión de noticias relevantes para la comunidad estudiantil.",
     foto: "/images/ramas/deporte.jpg",
     instagram: "",
     colorAccent: "bg-green-500"
    },
      {
-     id: "artes",
-     nombre: "Artes (Próximamente)",
-     descripcion: "Teatro, música, danza y exposiciones artísticas estudiantiles.",
+     id: "artesVisuales",
+     nombre: "Rama deArtes Visuales",
+     descripcion: "Teatro, música y exposiciones artísticas estudiantiles.",
+     foto: "/images/ramas/artes.jpg",
+     instagram: "",
+     colorAccent: "bg-indigo-500"
+   },
+        {
+     id: "danza",
+     nombre: "Rama de Danza y Baile",
+     descripcion: "Promoción de la danza y el baile como expresión cultural y artística entre los estudiantes.",
      foto: "/images/ramas/artes.jpg",
      instagram: "",
      colorAccent: "bg-indigo-500"

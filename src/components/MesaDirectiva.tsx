@@ -49,11 +49,11 @@ const igHandle = (h?: string): string => {
 // IMPORTANTE: Cambia estos datos por la información real de tu comité
 const mesaDirectiva = [
   {
-    id: "vocal",
-    cargo: "Vocal del Comité",
+    id: "presidente",
+    cargo: "Presidente del Comité Estudiantil",
     nombre: "José Luis Rafael Vázquez Silva",
     // Ruta a la foto (reemplazar con foto real)
-    foto: "public/images/vocal.jpg",
+    foto: `${import.meta.env.BASE_URL}images/pepeB.jpg`,
     instagram: "@pepebaskes",
     descripcion: "Lidera y coordina las actividades del comité estudiantil",
     icono: UserCircle,
@@ -62,10 +62,10 @@ const mesaDirectiva = [
   {
     id: "secretario",
     cargo: "Secretario",
-    nombre: "Eduardo Jesús Flores Navarro",
+    nombre: "Ricardo Flores Rosas",
     // Ruta a la foto (reemplazar con foto real)
-    foto: "public/images/secretario.jpg",
-    instagram: "@lalo_fn",
+    foto: `${import.meta.env.BASE_URL}images/ricardoF.jpg`,
+    instagram: "@flores.11ricardo",
     descripcion: "Gestiona la documentación y comunicaciones oficiales",
     icono: FileText,
     color: "purple"
@@ -73,14 +73,36 @@ const mesaDirectiva = [
   {
     id: "tesorero",
     cargo: "Tesorero",
-    nombre: "Cinthia Areli Flores Gallardo",
+    nombre: "Omar Iván Hernández Ibarra",
     // Ruta a la foto (reemplazar con foto real)
-    foto: "/images/tesorera.jpg",
-    instagram: "@panacinthia05",
+    foto: `${import.meta.env.BASE_URL}images/omarGay.jpg`,
+    instagram: "@omar_._hernandez",
     descripcion: "Administra los recursos financieros del comité",
     icono: Coins,
     color: "emerald"
-  }
+  },
+  {
+    id: "igualdadYBenestar",
+    cargo: "Igualdad y Benestar",
+    nombre: "Cinthia Arelí Flores Gallardo",
+    // Ruta a la foto (reemplazar con foto real)
+    foto: `${import.meta.env.BASE_URL}images/cinthia.jpg`,
+    instagram: "@panacinthia05",
+    descripcion: "Promueve la equidad y el bienestar de los estudiantes",
+    icono: Coins,
+    color: "emerald"
+  },
+    {
+    id: "relacionesPublicas",
+    cargo: "Relaciones Públicas",
+    nombre: "Kenneth Gibran Guzmán Flores",
+    // Ruta a la foto (reemplazar con foto real)
+    foto: `${import.meta.env.BASE_URL}images/kenneth.jpg`,
+    instagram: "@k.floressss",
+    descripcion: "Promueve la equidad y el bienestar de los estudiantes",
+    icono: Coins,
+    color: "emerald"
+  },
 ];
 
 export function MesaDirectiva() {
