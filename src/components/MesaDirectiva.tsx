@@ -83,7 +83,7 @@ const mesaDirectiva = [
   },
   {
     id: "igualdadYBenestar",
-    cargo: "Igualdad y Benestar",
+    cargo: "Igualdad y Bienestar",
     nombre: "Cinthia Arelí Flores Gallardo",
     // Ruta a la foto (reemplazar con foto real)
     foto: `${import.meta.env.BASE_URL}images/cinthia.jpg`,

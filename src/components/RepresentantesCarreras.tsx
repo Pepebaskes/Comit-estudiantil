@@ -163,7 +163,7 @@ const ramas: Rama[] = [
    },
      {
      id: "artesVisuales",
-     nombre: "Rama deArtes Visuales",
+     nombre: "Rama de Artes Visuales",
      descripcion: "Teatro, música y exposiciones artísticas estudiantiles.",
      foto: "/images/ramas/artes.jpg",
      instagram: "",
