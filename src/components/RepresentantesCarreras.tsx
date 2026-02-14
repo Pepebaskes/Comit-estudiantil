@@ -249,7 +249,7 @@ export function RepresentantesCarreras() {
         {/* Nota informativa */}
         <div className="mt-12 bg-blue-50 border border-blue-200 rounded-xl p-6 text-center">
           <p className="text-slate-700">
-            ¿Necesitas contactar a un representante? Haz clic en "Contactar" para enviar un email directamente.
+            ¿Necesitas contactar a un representante? Haz clic en su Instagram para que lo encuentres directamenmte.
           </p>
         </div>
         {/* ==============================
