@@ -10,10 +10,9 @@
     "strict": true,
     "skipLibCheck": true,
     "noFallthroughCasesInSwitch": true,
-
     "jsx": "react-jsx",
-    "types": ["react", "react-dom", "node"],
+    "types": ["vite/client", "react", "react-dom", "node"],
     "useDefineForClassFields": true
   },
-  "include": ["src", "vite.config.ts"]
+  "include": ["src", "vite.config.ts", "vite-env.d.ts"]
 }
