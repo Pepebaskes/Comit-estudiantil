@@ -71,7 +71,7 @@ const representantes = [
     id: "innovacion-agricola",
     carrera: "Ingeniería Innovación Agrícola",
     nombre: "Fátima del Carmén Figueroa Bobadilla",
-    foto: `${import.meta.env.BASE_URL}images/fatimaCarmen.jpg`,
+    foto: `${import.meta.env.BASE_URL}images/fatimaBova.jpg`,
     instagram: "fatyf63",
     semestre: "4to Semestre",
     colorAccent: "bg-green-500"
@@ -91,7 +91,7 @@ const representantes = [
     nombre: "En Búsqueda de Representante",
     foto: `${import.meta.env.BASE_URL}images/busqueda.jpg`,
     instagram: "",
-    semestre: "1er Semestre",
+    semestre: "",
     colorAccent: "bg-orange-500"
   },
   {

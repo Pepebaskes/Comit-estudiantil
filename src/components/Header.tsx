@@ -15,10 +15,11 @@
  *    - Cambia "Comité Estudiantil Universitario" por el nombre de tu comité
  */
 
-import { GraduationCap, Menu } from "lucide-react";
+import { GraduationCap, Menu, FileText } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { Button } from "./ui/button";
 import { useState } from "react";
+
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -89,12 +90,25 @@ export function Header() {
               {open && (
                 <div className="absolute top-full mt-3 bg-white shadow-xl rounded-xl p-3 w-56 border border-slate-200">
                   
-                  <a
-                    href="#descargables"
-                    className="block px-3 py-2 rounded-lg hover:bg-slate-100 transition-colors"
-                  >
-                    📥 Descargables
-                  </a>
+  <a
+  href="#descargables"
+  className="group flex items-start gap-3 p-3 rounded-xl hover:bg-slate-50 transition-all duration-200"
+>
+  {/* Icono con fondo de color suave */}
+  <div className="shrink-0 p-2 bg-blue-50 text-blue-600 rounded-lg group-hover:scale-110 transition-transform duration-200">
+    <FileText className="w-5 h-5" />
+  </div>
+
+  {/* Texto y Descripción */}
+  <div className="flex flex-col">
+    <span className="text-sm font-semibold text-slate-900 group-hover:text-blue-700">
+      Descargables
+    </span>
+    <span className="text-xs text-slate-500 mt-0.5 leading-tight">
+      Formatos y documentos oficiales
+    </span>
+  </div>
+</a>
                 {/*
                   <a
                     href="#reglamentos"
@@ -109,7 +123,7 @@ export function Header() {
                   >
                     📝 ¿Cómo pertenecer?
                   </a>
-                  */}
+                  (/* Agrega más enlaces aquí si es necesario *\/) */}
 
                 </div>
               )}

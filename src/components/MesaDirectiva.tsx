@@ -25,6 +25,8 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { Card } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { UserCircle, FileText, Coins, Instagram } from "lucide-react";
+import { Link } from "react-router-dom";
+import { datosMesaDirectiva } from "../data/datosMesaDirectiva";
 
 // Convierte @usuario | usuario | url completa → URL de Instagram (siempre válida)
 const igUrl = (h?: string): string => {
@@ -77,7 +79,7 @@ const mesaDirectiva = [
     // Ruta a la foto (reemplazar con foto real)
     foto: `${import.meta.env.BASE_URL}images/omarGay.jpg`,
     instagram: "@omar_._hernandez",
-    descripcion: "Administra los recursos financieros del comité",
+    descripcion: "Gestiona los recursos financieros del comité",
     icono: Coins,
     color: "emerald"
   },
@@ -99,7 +101,7 @@ const mesaDirectiva = [
     // Ruta a la foto (reemplazar con foto real)
     foto: `${import.meta.env.BASE_URL}images/kenneth.jpg`,
     instagram: "@k.floressss",
-    descripcion: "Promueve la equidad y el bienestar de los estudiantes",
+    descripcion: "Encargado de la comunicación, publicidad y relaciones con otras organizaciones estudiantiles",
     icono: Coins,
     color: "emerald"
   },
